@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('Build') {
+        stage('click') {
             steps {
-                sh 'make build'
+                sh 'def click():/n print("click")'
             }
         }
         stage('Test') {

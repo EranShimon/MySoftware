@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('click') {
             steps {
-                sh 'def click():/n print("click")'
+                sh 'ls -la'
             }
         }
         stage('Test') {
